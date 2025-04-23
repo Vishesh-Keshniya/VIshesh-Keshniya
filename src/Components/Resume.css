@@ -1,0 +1,100 @@
+/* Resume Component Styles */
+.resume-container {
+  background-color: #000000; /* Black background */
+  color: #00bcd4; /* Cyan color */
+  padding: 60px; /* Padding */
+  text-align: center;
+  border-radius: 8px;
+  max-width: 600px;
+  margin: 50px auto;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.4);
+}
+
+/* Hover effect for resume container */
+.resume-container:hover {
+  box-shadow: 0 5px 20px rgba(0, 188, 212, 0.3);
+}
+
+/* Resume Title Styling */
+.resume-title {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+/* Resume Image Styling */
+.resume-image {
+  width: 50%;
+  max-width: 500px;
+  margin-bottom: 20px;
+  border-radius: 8px;
+  box-shadow: 0 5px 10px rgba(0, 188, 212, 0.3);
+}
+
+/* Resume Button Styling */
+.resume-button {
+  background-color: #000000;
+  color: white;
+  border: 2px solid #00bcd4;
+  padding: 10px 20px;
+  border-radius: 50px;
+  font-size: 20px;
+  transition: all 0.3s ease;
+}
+
+/* Button Hover Effect */
+.resume-button:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 20px rgba(94, 114, 117, 0.3);
+  cursor: pointer;
+  background: #00bcd4;
+  color: #000;
+}
+
+/* Footer Styling */
+.resume-footer {
+  padding-top: 40px;
+}
+
+/* Responsive Styling */
+@media (max-width: 768px) {
+  .resume-container {
+      padding: 40px; /* Less padding on smaller screens */
+      max-width: 90%; /* Full width for smaller screens */
+  }
+  
+  .resume-title {
+      font-size: 2rem; /* Adjust title font size */
+  }
+
+  .resume-image {
+      width: 70%; /* Increase the width of the image */
+      max-width: 400px; /* Adjust max width */
+  }
+
+  .resume-button {
+      font-size: 18px; /* Adjust button font size */
+      padding: 8px 16px; /* Adjust button padding */
+  }
+}
+
+@media (max-width: 480px) {
+  .resume-container {
+      padding: 30px; /* Even smaller padding on mobile */
+      max-width: 95%; /* Almost full width */
+  }
+
+  .resume-title {
+      font-size: 1.5rem; /* Even smaller font size for title */
+  }
+
+  .resume-image {
+      width: 80%; /* Wider image on very small screens */
+  }
+
+  .resume-button {
+      font-size: 16px; /* Smaller font size for button */
+      padding: 8px 14px; /* Adjust padding */
+  }
+}
