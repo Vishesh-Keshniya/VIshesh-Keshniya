@@ -46,6 +46,13 @@ const Portfolio = () => {
         <h2>Projects</h2>
         <div className="project-list">
           <div className="project">
+            <h3>Link Tree</h3>
+            <p>A full-stack web application that allows users to create a personalized link hub just like Linktree. Users can register, log in, and manage a set of links that are showcased on a clean, shareable public profile.</p>
+            <p><strong>Technologies Used:</strong> MongoDB, Express.js, React, Node.js, REST API</p>
+            <a href="https://link-tree-eta-beryl.vercel.app/" target="_blank" rel="noopener noreferrer">View Project</a>
+          </div>
+
+          <div className="project">
             <h3>URL Shortener</h3>
             <p>A URL shortener that allows users to input long URLs and convert them into shorter, more manageable links. The shortened link can be shared easily and redirects the user to the original long URL when clicked.</p>
             <p><strong>Technologies Used:</strong> MongoDB, Express.js, React, Node.js, REST API</p>
@@ -58,17 +65,12 @@ const Portfolio = () => {
             <p><strong>Technologies Used:</strong>MongoDB, Express.js, React, Node.js, REST API</p>
             <a className='project-link' href="https://form-bot-full-stack-31tj.vercel.app/" target="_blank" rel="noopener noreferrer">View Project</a>
           </div>
-           <div className="project">
-            <h3>Pocket Notes</h3>
-            <p>Pocket Notes is a simple and intuitive note-taking application that allows users to create, edit, and delete notes easily. It offers a seamless user experience with a clean and minimalistic design, making it perfect for jotting down quick ideas, to-do lists, and important reminders.</p>
-            <p><strong>Technologies Used:</strong>React.js, HTML, CSS, Local Storage</p>
-            <a className='project-link' href="https://pocket-notes-five-khaki.vercel.app/" target="_blank" rel="noopener noreferrer">View Project</a>
-          </div>
+          
           <div className="project">
             <h3>Portfolio Website</h3>
             <p>This Portfolio Website is a personal website designed to showcase my skills, projects, experience, and education in an interactive and visually appealing manner. It provides a clean, modern, and responsive UI, ensuring a seamless experience across different devices. Built using React.js, the website highlights my expertise in full-stack development with the MERN stack (MongoDB, Express.js, React.js, Node.js) and other essential web technologies.</p>
             <p><strong>Technologies Used:</strong>React.js</p>
-            <a className='project-link' href="https://my-portfolio-green-three-94.vercel.app/" target="_blank" rel="noopener noreferrer">View Project</a>
+            <a className='project-link' href="https://visheshkeshniya.vercel.app/" target="_blank" rel="noopener noreferrer">View Project</a>
           </div>
         </div>
       </section>

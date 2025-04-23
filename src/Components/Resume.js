@@ -13,7 +13,7 @@ function Resume() {
       />
       <br />
       {/* Replace with your actual resume file path */}
-      <a href="https://drive.google.com/file/d/1Slu2n_BdD082oKM0Eiijl4uYIh73WTHA/view?usp=sharing" download>
+      <a href="https://drive.google.com/file/d/1XBzJTCCNaWUmKHswOIgEAtYjIXI1_cMY/view?usp=sharing" download>
         <button className="resume-button">Download Resume</button>
       </a>
       
